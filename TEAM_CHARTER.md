@@ -122,7 +122,7 @@ A task is marked as DONE only when ALL of the following are complete:
 ### Scrum Master
 - **Duration:** 2 weeks per rotation (one sprint)
 - **Rotation Schedule:**
-  - Sprint 1 (Weeks 1-2): [Name]
+  - Sprint 1 (Weeks 1-2): Yuliia M.
   - Sprint 2 (Weeks 3-4): [Name]
   - Sprint 3 (Weeks 5-6): [Name]
   - Sprint 4 (Weeks 7-8): [Name]
@@ -135,12 +135,12 @@ A task is marked as DONE only when ALL of the following are complete:
 - Coordinate sprint planning and retrospectives
 
 ### Meeting Minutes
-**Rotation order (alphabetical by last name):**
-1. [Last name A]
-2. [Last name B]
-3. [Last name C]
-4. [Last name D]
-5. [Last name E]
+**Rotation order (alphabetical by First name):**
+1. A. Ciuffo
+2. A. Humeha
+3. A. Rak
+4. L. Peggman
+5. Y. Medun
 
 **Responsibilities:**
 - Document key discussion points
