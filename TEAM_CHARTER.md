@@ -190,7 +190,7 @@ All team members have reviewed and agree to these norms and expectations.
 
 **Team Members:**
 - Aaron Ciuffo - 2025/02/03
-- [Name] - [Date]
+- Andrii Rak - 2025/02/03
 - [Name] - [Date]
 - [Name] - [Date]
 - [Name] - [Date]
