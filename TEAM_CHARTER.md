@@ -192,5 +192,5 @@ All team members have reviewed and agree to these norms and expectations.
 - Aaron Ciuffo - 2025/02/03
 - Andrii Rak - 2025/02/03
 - Yuliia Medun - 2025/02/03
-- [Name] - [Date]
+- Andrii Humeha - 2025/02/03
 - [Name] - [Date]
