@@ -3,6 +3,7 @@
 *.tif*
 *.jpg
 *.webp
+!assets/*/*.png
 
 # compressed archives
 *.tgz
