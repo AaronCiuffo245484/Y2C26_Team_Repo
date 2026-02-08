@@ -57,7 +57,7 @@ The next step is to trace any roots. Follow these guidelines:
     - ![First Mark](./assets/smartroot/sr_trace_root_00.png)
 4. Click on the midline of the root to continue annotating. 
 5. When you reach the root tip **DO NOT LEFT CLICK ON THE ROOT TIP**. Instead **RIGHT CLICK** to bring up the naming/saving menu. See the naming convention above.
-    - [Save & Name Root](./assets/smartroot/sr_trace_root_01.png)
+    - ![Save & Name Root](./assets/smartroot/sr_trace_root_01.png)
 6. Unneeded nodes can be removed by right clicking and choosing `Remove Node`
 7. Repeat for all rots. Your work is saved as you go in a `.rsml` file.
 8. Close the image to finish annotation
