@@ -40,9 +40,9 @@ If you mark in an incorrect location, you can delete all the marks by right clic
 ![Remove Anchors](./assets/smartroot/sr_remove_anchors.png)
 
 
-### Annotation
+### Primary Root Annotation
 
-The next step is to trace any roots. Follow these guidelines:
+The next step is to trace the primary roots. Follow these guidelines:
 
 - The left most root is root_01
 - The right most root is root_05
@@ -55,12 +55,16 @@ The next step is to trace any roots. Follow these guidelines:
 2. Hover the mouse over the first root and use `=` to zoom in on the root/shoot interface
 3. Click once to add a root marker. The tool will attempt to "snap" to the middle line of the root.
     - ![First Mark](./assets/smartroot/sr_trace_root_00.png)
-4. Click on the midline of the root to continue annotating. 
+4. Hold down the ALT key on the keyboard to activate the "auto follow" feature and click on the midline of the root near to the first point to continue annotating. Smart Root will attempt to follow the root. It may stop part way through the root. In this case simply hold down ALT and click again slightly beyond the last point.
+   - Mac users: Hold down the OPTION key.
+   - Add additional points as needed manually by releasing the ALT key
+   - Hold down the CTRL key to turn off the snapping feature
 5. When you reach the root tip **DO NOT LEFT CLICK ON THE ROOT TIP**. Instead **RIGHT CLICK** to bring up the naming/saving menu. See the naming convention above.
     - ![Save & Name Root](./assets/smartroot/sr_trace_root_01.png)
 6. Unneeded nodes can be removed by right clicking and choosing `Remove Node`
 7. Repeat for all rots. Your work is saved as you go in a `.rsml` file.
 8. Close the image to finish annotation
+
 
 **Handling Unwanted Roots**
 
@@ -68,7 +72,21 @@ If you accidentally start a new root that is unwanted, simply right click and pr
 
 If you want to remove a root entirely, Right click on an existing node and choose `Delete Root`
 
-### Annotating T+1 Images
+### Auxiliary Root Annotation
+
+After annotating the primary root, add any auxiliary roots.
+
+1. Using the same tool and procedure as above, click on the auxiliary root near the primary root to create a new start.
+2. Follow the root using the same process as above.
+3. When the tip is reached, right click using the same process as above to finish; give the root any name (e.g. root_0)
+4. Right click on the new root and choose "Attach Parent Root"
+    - ![Attach Parent Root](./assets/smartroot/sr_attach_parent.png)
+5. The current root you are annotating should automatically be chosen and highlighted as shown below. If it is not highlighted, choose it from the list, or quit by pressing ESC and right clicking once on the correct parent root and then repeat step 4. The nodes will turn green to indicate that the root is an Aux root.
+    - ![Attach Parent Root: Choose](./assets/smartroot/sr_attach_parent_choose.png)
+6. Repeat steps 1-5 for all new laterals.
+7. Annotate any new growth using the same primary root methods.
+
+###  Annotating T+1 Images
 
 Annotating t+1 images starts with the same pattern as above: load an image and add anchors. To load the previously annotated roots follow these steps once the anchors have been added.
 
@@ -79,11 +97,12 @@ Annotating t+1 images starts with the same pattern as above: load an image and a
    - ![Select File](./assets/smartroot/sr_import_previous_data_file_select.png)
 4. Zoom Out or In once on the image to reveal the previous annotations
    - If the tracing does not align well (e.g. appears displaced from the root), this is due to poor selection of the Registration Anchors. See the steps below for corrective actions.
-5. Add additional nodes by right clicking on an existing node and choosing `Multiply Nodes`.
-6. Shift the root tip to the end of the root and move as few nodes as possible to accommodate the new growth. Repeat `Multiply Nodes` to get more nodes.
-7. Repeat steps 5 and 6 for additional roots as needed
+5. Hold down ALT (OPTION on Mac) and drag the root tip marker slightly further along the length of the root. Smart Root should automatically extend the root and add additional points. Repeat as needed to complete the root.
+6. Add points manually by right clicking and choosing "Append Node"
+   - Hold down CTRL to deactivate the snap feature. This is helpful if there is a lot of noise/water droplets near the intended annotation point.
+7. Repeat steps 5 and 6 for additional roots and auxiliary roots as needed.
 8. Close the image to save work in the `RSML` file
-9. Repeat as needed for the rest of the series
+9.  Repeat as needed for the rest of the series
 
 **Correcting Misplaced Tracing**
 
