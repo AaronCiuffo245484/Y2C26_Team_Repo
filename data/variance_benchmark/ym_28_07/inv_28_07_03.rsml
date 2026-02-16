@@ -114,13 +114,13 @@
 						<sample>2.1062748</sample>
 						<sample>1.3463804</sample>
 						<sample>0.25072846</sample>
-						<sample>4.75064</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
 				</annotations>
  </root>
-			<root ID='1f370ce0-797e-42bc-b4cf-edd3f509b1d7' label='root_04' po:accession='PO:0009005'>
+			<root ID='1f370ce0-797e-42bc-b4cf-edd3f509b1d7' label='root_03' po:accession='PO:0009005'>
 				<properties>
   <rulerAtOrigin>0.0</rulerAtOrigin>
 					<length>0.19206448</length>
@@ -167,7 +167,7 @@
 					<function name='orientation' domain='polyline'>
 						<sample>4.1333146</sample>
 						<sample>4.685123</sample>
-						<sample>4.0984073</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -207,7 +207,7 @@
 						<sample>4.322294</sample>
 						<sample>4.069616</sample>
 						<sample>4.0253253</sample>
-						<sample>4.1783257</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>

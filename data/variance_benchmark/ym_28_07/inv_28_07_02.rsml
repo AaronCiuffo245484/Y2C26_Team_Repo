@@ -77,7 +77,7 @@
 						<sample>4.61653</sample>
 						<sample>4.1699963</sample>
 						<sample>4.613825</sample>
-						<sample>2.0064096</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -108,7 +108,7 @@
 				<annotations>
 				</annotations>
  </root>
-			<root ID='1f370ce0-797e-42bc-b4cf-edd3f509b1d7' label='root_04' po:accession='PO:0009005'>
+			<root ID='1f370ce0-797e-42bc-b4cf-edd3f509b1d7' label='root_03' po:accession='PO:0009005'>
 				<properties>
   <rulerAtOrigin>0.0</rulerAtOrigin>
 					<length>0.011554463</length>

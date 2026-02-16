@@ -52,31 +52,6 @@
 	</metadata>
 	<scene>
 		<plant>
-			<root ID='b7bff21c-5d34-4d04-902f-60a124e40866' label='root_' po:accession='PO:0009005'>
-				<properties>
-  <rulerAtOrigin>0.0</rulerAtOrigin>
-					<length>0.0</length>
-					<orientation>0.23631579</orientation>
-				</properties>
-				<geometry>
-					<polyline>
-						<point x='708.5' y='348.5'/>
-						<point x='728.9167' y='343.58334'/>
-					</polyline>
-				</geometry>
-				<functions>
-					<function name='diameter' domain='polyline'>
-						<sample>5.500113</sample>
-						<sample>1.0</sample>
-					</function>
-					<function name='orientation' domain='polyline'>
-						<sample>0.23631579</sample>
-						<sample>0.0</sample>
-					</function>
-				</functions>
-				<annotations>
-				</annotations>
- </root>
 			<root ID='834e31dc-8431-4341-899c-1537000d5990' label='root_05' po:accession='PO:0009005'>
 				<properties>
   <rulerAtOrigin>0.0</rulerAtOrigin>
@@ -96,7 +71,7 @@
 					</function>
 					<function name='orientation' domain='polyline'>
 						<sample>4.399661</sample>
-						<sample>2.8531299</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -121,7 +96,7 @@
 					</function>
 					<function name='orientation' domain='polyline'>
 						<sample>4.6126304</sample>
-						<sample>1.1057413</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -146,7 +121,7 @@
 					</function>
 					<function name='orientation' domain='polyline'>
 						<sample>4.7892885</sample>
-						<sample>3.4149876</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -171,7 +146,7 @@
 					</function>
 					<function name='orientation' domain='polyline'>
 						<sample>4.712389</sample>
-						<sample>1.4881052</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -196,7 +171,7 @@
 					</function>
 					<function name='orientation' domain='polyline'>
 						<sample>4.7038507</sample>
-						<sample>1.9838452</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
