@@ -125,7 +125,7 @@
 						<sample>4.4783335</sample>
 						<sample>4.3816614</sample>
 						<sample>4.475098</sample>
-						<sample>4.49774</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -374,7 +374,7 @@
 						<sample>4.7972746</sample>
 						<sample>4.5932646</sample>
 						<sample>4.6183324</sample>
-						<sample>4.5863113</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -498,7 +498,7 @@
 						<sample>4.820758</sample>
 						<sample>5.580715</sample>
 						<sample>4.9251075</sample>
-						<sample>4.8800883</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>

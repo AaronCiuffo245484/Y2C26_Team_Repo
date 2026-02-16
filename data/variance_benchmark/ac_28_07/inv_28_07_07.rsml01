@@ -803,6 +803,42 @@
 				<annotations>
 				</annotations>
  </root>
+			<root ID='8fc7f031-456f-403b-bbd9-aa0d7e3ec71c' label='root_0' po:accession='PO:0009005'>
+				<properties>
+  <rulerAtOrigin>0.0</rulerAtOrigin>
+					<length>0.12606932</length>
+					<orientation>5.5780673</orientation>
+					<insertion>0.41650003</insertion>
+					<angle>82.5347491756268</angle>
+				</properties>
+				<geometry>
+					<polyline>
+						<point x='694.74976' y='404.51038'/>
+						<point x='697.238' y='406.08'/>
+						<point x='699.6719' y='408.9407'/>
+						<point x='702.6212' y='413.2575'/>
+						<point x='705.3271' y='414.46732'/>
+					</polyline>
+				</geometry>
+				<functions>
+					<function name='diameter' domain='polyline'>
+						<sample>6.000118</sample>
+						<sample>3.8775494</sample>
+						<sample>2.9418344</sample>
+						<sample>2.9418344</sample>
+						<sample>2.9854388</sample>
+					</function>
+					<function name='orientation' domain='polyline'>
+						<sample>5.720414</sample>
+						<sample>5.4173474</sample>
+						<sample>5.3117666</sample>
+						<sample>5.8627415</sample>
+						<sample>0.032355342</sample>
+					</function>
+				</functions>
+				<annotations>
+				</annotations>
+ </root>
  </root>
 		</plant>
 	</scene>

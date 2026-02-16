@@ -2270,6 +2270,90 @@
 				<annotations>
 				</annotations>
  </root>
+			<root ID='fc264806-1e6e-4a1f-b3d9-d60e809e1ada' label='root_0' po:accession='PO:0009005'>
+				<properties>
+  <rulerAtOrigin>0.0</rulerAtOrigin>
+					<length>0.23653486</length>
+					<orientation>3.5126905</orientation>
+					<insertion>0.08736053</insertion>
+					<angle>66.79341710117352</angle>
+					<lbuz>0.08881556</lbuz>
+					<lauz>0.08881556</lauz>
+				</properties>
+				<geometry>
+					<polyline>
+						<point x='705.0' y='367.25'/>
+						<point x='695.51733' y='367.10086'/>
+						<point x='690.23126' y='370.75266'/>
+						<point x='681.8917' y='375.47812'/>
+						<point x='679.6228' y='376.38446'/>
+					</polyline>
+				</geometry>
+				<functions>
+					<function name='diameter' domain='polyline'>
+						<sample>2.6775873</sample>
+						<sample>2.6775873</sample>
+						<sample>3.4737144</sample>
+						<sample>3.7764018</sample>
+						<sample>1.4790047</sample>
+					</function>
+					<function name='orientation' domain='polyline'>
+						<sample>3.1258724</sample>
+						<sample>3.74614</sample>
+						<sample>3.657117</sample>
+						<sample>3.521633</sample>
+						<sample>3.0819194</sample>
+					</function>
+				</functions>
+				<annotations>
+				  <annotation name='Most Distal Lateral'>
+				    <lPos>10.490027</lPos>
+				    <twinLPos>0.0</twinLPos>
+				    <point x='695.48584' y='368.82556'/>
+				    <value>0</value>
+				    <software>smartroot</software>
+				  </annotation>
+				</annotations>
+			<root ID='80c3a562-fe0a-46f4-8b82-9025c1e33db3' label='root_0' po:accession='PO:0009005'>
+				<properties>
+  <rulerAtOrigin>0.0</rulerAtOrigin>
+					<length>0.1883374</length>
+					<orientation>3.579164</orientation>
+					<insertion>0.08881556</insertion>
+					<angle>15.95151065559292</angle>
+				</properties>
+				<geometry>
+					<polyline>
+						<point x='693.91504' y='366.77884'/>
+						<point x='691.5' y='366.75'/>
+						<point x='683.0' y='368.25'/>
+						<point x='681.0' y='370.375'/>
+						<point x='678.36755' y='373.08453'/>
+						<point x='674.23785' y='374.8775'/>
+					</polyline>
+				</geometry>
+				<functions>
+					<function name='diameter' domain='polyline'>
+						<sample>1.500009</sample>
+						<sample>1.500009</sample>
+						<sample>1.500009</sample>
+						<sample>1.500009</sample>
+						<sample>2.9962735</sample>
+						<sample>1.4631788</sample>
+					</function>
+					<function name='orientation' domain='polyline'>
+						<sample>3.129652</sample>
+						<sample>3.3162646</sample>
+						<sample>3.9572847</sample>
+						<sample>3.9414203</sample>
+						<sample>3.5512</sample>
+						<sample>0.53623706</sample>
+					</function>
+				</functions>
+				<annotations>
+				</annotations>
+ </root>
+ </root>
  </root>
 		</plant>
 	</scene>

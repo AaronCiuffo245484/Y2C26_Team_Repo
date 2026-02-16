@@ -318,7 +318,7 @@
 				<annotations>
 				</annotations>
  </root>
-			<root ID='2c6a56d4-f7b6-4a20-951e-0aa2aca0a885' label='root_0' po:accession='PO:0009005'>
+			<root ID='2c6a56d4-f7b6-4a20-951e-0aa2aca0a885' label='root_05' po:accession='PO:0009005'>
 				<properties>
   <rulerAtOrigin>0.0</rulerAtOrigin>
 					<length>1.2924442</length>
@@ -406,7 +406,7 @@
 				  <annotation name='Most Distal Lateral'>
 				    <lPos>34.629536</lPos>
 				    <twinLPos>0.0</twinLPos>
-				    <point x='1990.9386' y='396.4031'/>
+				    <point x='0.0' y='0.0'/>
 				    <value>0</value>
 				    <software>smartroot</software>
 				  </annotation>
@@ -833,7 +833,7 @@
 						<sample>5.4173474</sample>
 						<sample>5.3117666</sample>
 						<sample>5.8627415</sample>
-						<sample>0.032355342</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>

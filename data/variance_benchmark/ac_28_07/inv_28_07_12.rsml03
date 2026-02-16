@@ -584,7 +584,7 @@
 						<sample>4.3917203</sample>
 						<sample>4.391715</sample>
 						<sample>4.334321</sample>
-						<sample>4.455639</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -819,7 +819,7 @@
 						<sample>4.860483</sample>
 						<sample>5.4147143</sample>
 						<sample>5.028276</sample>
-						<sample>5.2803392</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -879,7 +879,7 @@
 						<sample>4.649755</sample>
 						<sample>4.3267646</sample>
 						<sample>4.5732107</sample>
-						<sample>4.396541</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1177,7 +1177,7 @@
 						<sample>4.4985476</sample>
 						<sample>4.687053</sample>
 						<sample>4.8313727</sample>
-						<sample>4.816927</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1255,7 +1255,7 @@
 						<sample>4.629505</sample>
 						<sample>5.2641597</sample>
 						<sample>4.8565426</sample>
-						<sample>4.689194</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1324,7 +1324,7 @@
 						<sample>5.3240924</sample>
 						<sample>5.112967</sample>
 						<sample>4.9797</sample>
-						<sample>5.0507584</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1390,7 +1390,7 @@
 						<sample>5.2079406</sample>
 						<sample>5.18846</sample>
 						<sample>5.282399</sample>
-						<sample>1.5319427</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1865,7 +1865,7 @@
 						<sample>4.02247</sample>
 						<sample>4.180009</sample>
 						<sample>4.279975</sample>
-						<sample>4.009959</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -2000,7 +2000,7 @@
 						<sample>5.5547605</sample>
 						<sample>5.5663853</sample>
 						<sample>5.226597</sample>
-						<sample>5.2899694</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -2081,7 +2081,7 @@
 						<sample>4.964471</sample>
 						<sample>4.9147744</sample>
 						<sample>5.2787743</sample>
-						<sample>5.636755</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -2120,7 +2120,7 @@
 						<sample>4.083528</sample>
 						<sample>3.9068053</sample>
 						<sample>3.5894992</sample>
-						<sample>3.8421803</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -2234,7 +2234,7 @@
 						<sample>5.7093053</sample>
 						<sample>5.4908304</sample>
 						<sample>5.469861</sample>
-						<sample>6.24106</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -2264,7 +2264,7 @@
 					<function name='orientation' domain='polyline'>
 						<sample>3.6744616</sample>
 						<sample>3.6416671</sample>
-						<sample>3.6077504</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>

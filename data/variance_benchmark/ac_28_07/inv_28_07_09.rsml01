@@ -461,7 +461,7 @@
 						<sample>5.5747733</sample>
 						<sample>5.677597</sample>
 						<sample>0.024919737</sample>
-						<sample>0.4745751</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -615,7 +615,7 @@
 						<sample>5.375485</sample>
 						<sample>5.1785035</sample>
 						<sample>5.2500386</sample>
-						<sample>4.9300694</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -660,7 +660,7 @@
 						<sample>5.080145</sample>
 						<sample>5.0801587</sample>
 						<sample>4.6875014</sample>
-						<sample>5.3741865</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -702,7 +702,7 @@
 						<sample>3.5646327</sample>
 						<sample>4.3170495</sample>
 						<sample>5.116019</sample>
-						<sample>2.2478797</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -838,7 +838,7 @@
 						<sample>4.912493</sample>
 						<sample>4.7724433</sample>
 						<sample>4.8124094</sample>
-						<sample>4.7979374</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -895,7 +895,7 @@
 						<sample>4.370769</sample>
 						<sample>4.975186</sample>
 						<sample>4.6920857</sample>
-						<sample>3.5202482</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -973,7 +973,7 @@
 						<sample>4.7439575</sample>
 						<sample>4.661574</sample>
 						<sample>4.689922</sample>
-						<sample>2.3600643</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1163,7 +1163,7 @@
 						<sample>4.8497796</sample>
 						<sample>4.888572</sample>
 						<sample>5.096077</sample>
-						<sample>5.7212434</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1277,7 +1277,7 @@
 						<sample>3.7040823</sample>
 						<sample>4.0687404</sample>
 						<sample>4.017232</sample>
-						<sample>4.353237</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1325,7 +1325,7 @@
 						<sample>5.5188613</sample>
 						<sample>5.345715</sample>
 						<sample>5.433533</sample>
-						<sample>5.379695</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1367,7 +1367,7 @@
 						<sample>5.602023</sample>
 						<sample>5.7018433</sample>
 						<sample>5.4013906</sample>
-						<sample>5.5428977</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1409,7 +1409,7 @@
 						<sample>5.1702585</sample>
 						<sample>5.268411</sample>
 						<sample>5.3483825</sample>
-						<sample>5.1813684</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1442,7 +1442,7 @@
 						<sample>3.2961612</sample>
 						<sample>3.7703888</sample>
 						<sample>3.8307288</sample>
-						<sample>1.8327963</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1481,7 +1481,7 @@
 						<sample>3.716566</sample>
 						<sample>3.69317</sample>
 						<sample>3.6210213</sample>
-						<sample>3.1892202</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>

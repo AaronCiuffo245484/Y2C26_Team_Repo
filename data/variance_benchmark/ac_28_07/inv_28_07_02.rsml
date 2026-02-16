@@ -52,7 +52,7 @@
 	</metadata>
 	<scene>
 		<plant>
-			<root ID='2c6a56d4-f7b6-4a20-951e-0aa2aca0a885' label='root_' po:accession='PO:0009005'>
+			<root ID='2c6a56d4-f7b6-4a20-951e-0aa2aca0a885' label='root_05' po:accession='PO:0009005'>
 				<properties>
   <rulerAtOrigin>0.0</rulerAtOrigin>
 					<length>0.16020185</length>
@@ -80,7 +80,7 @@
 						<sample>4.2320724</sample>
 						<sample>4.4004755</sample>
 						<sample>4.5293727</sample>
-						<sample>4.364812</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -108,7 +108,7 @@
 					<function name='orientation' domain='polyline'>
 						<sample>4.5830064</sample>
 						<sample>4.6758685</sample>
-						<sample>1.3996365</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -139,7 +139,7 @@
 						<sample>4.3104105</sample>
 						<sample>4.1779766</sample>
 						<sample>4.615854</sample>
-						<sample>1.3555766</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>

@@ -482,7 +482,7 @@
 						<sample>4.39481</sample>
 						<sample>4.329317</sample>
 						<sample>4.489783</sample>
-						<sample>4.5906734</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -531,13 +531,13 @@
 				</annotations>
  </root>
  </root>
-			<root ID='2c6a56d4-f7b6-4a20-951e-0aa2aca0a885' label='root_0' po:accession='PO:0009005'>
+			<root ID='2c6a56d4-f7b6-4a20-951e-0aa2aca0a885' label='root_05' po:accession='PO:0009005'>
 				<properties>
   <rulerAtOrigin>0.0</rulerAtOrigin>
 					<length>1.8572947</length>
 					<orientation>4.7242665</orientation>
 					<lbuz>0.29451558</lbuz>
-					<lauz>0.84504855</lauz>
+					<lauz>0.96770114</lauz>
 				</properties>
 				<geometry>
 					<polyline>
@@ -642,14 +642,14 @@
 						<sample>4.9566703</sample>
 						<sample>5.049367</sample>
 						<sample>5.0760527</sample>
-						<sample>5.8498263</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
 				  <annotation name='Most Distal Lateral'>
-				    <lPos>99.80888</lPos>
+				    <lPos>114.29541</lPos>
 				    <twinLPos>0.0</twinLPos>
-				    <point x='1989.4353' y='461.36685'/>
+				    <point x='0.0' y='0.0'/>
 				    <value>0</value>
 				    <software>smartroot</software>
 				  </annotation>
@@ -693,7 +693,7 @@
 						<sample>5.1785035</sample>
 						<sample>5.2798405</sample>
 						<sample>4.9937644</sample>
-						<sample>4.969999</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -744,7 +744,7 @@
 						<sample>4.8117414</sample>
 						<sample>5.089586</sample>
 						<sample>4.659548</sample>
-						<sample>4.532568</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -795,7 +795,7 @@
 						<sample>5.1383758</sample>
 						<sample>5.189926</sample>
 						<sample>4.7629147</sample>
-						<sample>4.6555543</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -834,7 +834,7 @@
 						<sample>5.817614</sample>
 						<sample>4.432477</sample>
 						<sample>4.383585</sample>
-						<sample>6.274863</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1002,7 +1002,7 @@
   <rulerAtOrigin>0.0</rulerAtOrigin>
 					<length>0.41996285</length>
 					<orientation>4.1454215</orientation>
-					<insertion>0.8184834</insertion>
+					<insertion>0.8184217</insertion>
 					<angle>62.64583936919663</angle>
 				</properties>
 				<geometry>
@@ -1195,7 +1195,7 @@
 						<sample>4.77745</sample>
 						<sample>4.469677</sample>
 						<sample>4.2380075</sample>
-						<sample>4.050419</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>

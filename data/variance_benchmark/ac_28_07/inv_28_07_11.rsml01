@@ -281,7 +281,7 @@
 						<sample>4.508844</sample>
 						<sample>4.443422</sample>
 						<sample>4.674996</sample>
-						<sample>5.004606</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -530,7 +530,7 @@
 						<sample>4.5874314</sample>
 						<sample>4.5536075</sample>
 						<sample>4.577649</sample>
-						<sample>4.5065103</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -706,7 +706,7 @@
 				  <annotation name='Most Distal Lateral'>
 				    <lPos>114.29541</lPos>
 				    <twinLPos>0.0</twinLPos>
-				    <point x='0.0' y='0.0'/>
+				    <point x='1986.5526' y='475.27975'/>
 				    <value>0</value>
 				    <software>smartroot</software>
 				  </annotation>
@@ -753,7 +753,7 @@
 						<sample>5.2798405</sample>
 						<sample>4.860483</sample>
 						<sample>5.5334</sample>
-						<sample>5.3528867</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -807,7 +807,7 @@
 						<sample>5.089586</sample>
 						<sample>4.7079244</sample>
 						<sample>4.698127</sample>
-						<sample>4.9710174</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -879,7 +879,7 @@
 					<length>0.1941275</length>
 					<orientation>4.135538</orientation>
 					<insertion>0.96770114</insertion>
-					<angle>87.14100143112672</angle>
+					<angle>28.581158808350136</angle>
 				</properties>
 				<geometry>
 					<polyline>
@@ -1078,7 +1078,7 @@
 						<sample>4.778136</sample>
 						<sample>4.848447</sample>
 						<sample>4.7340007</sample>
-						<sample>4.564149</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1147,7 +1147,7 @@
 						<sample>4.7115784</sample>
 						<sample>4.986601</sample>
 						<sample>4.8812838</sample>
-						<sample>5.2266903</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1267,7 +1267,7 @@
 						<sample>4.502319</sample>
 						<sample>4.4220414</sample>
 						<sample>4.728698</sample>
-						<sample>5.074894</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1321,7 +1321,7 @@
 						<sample>4.292534</sample>
 						<sample>4.227481</sample>
 						<sample>4.243088</sample>
-						<sample>3.8482451</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1553,7 +1553,7 @@
 						<sample>4.677914</sample>
 						<sample>4.4772773</sample>
 						<sample>4.320225</sample>
-						<sample>4.1938486</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1625,7 +1625,7 @@
 						<sample>4.3860865</sample>
 						<sample>4.3332586</sample>
 						<sample>4.7344394</sample>
-						<sample>4.426962</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1688,7 +1688,7 @@
 						<sample>4.192576</sample>
 						<sample>4.1392446</sample>
 						<sample>4.1287093</sample>
-						<sample>4.0678124</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1751,7 +1751,7 @@
 						<sample>5.53182</sample>
 						<sample>5.5012364</sample>
 						<sample>5.5042167</sample>
-						<sample>4.7410364</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1805,7 +1805,7 @@
 						<sample>5.6102586</sample>
 						<sample>5.5547605</sample>
 						<sample>5.538894</sample>
-						<sample>5.5076017</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1907,7 +1907,7 @@
 						<sample>3.9115016</sample>
 						<sample>3.8642092</sample>
 						<sample>3.6196432</sample>
-						<sample>4.452492</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1967,7 +1967,7 @@
 						<sample>3.542405</sample>
 						<sample>4.2737794</sample>
 						<sample>3.963786</sample>
-						<sample>3.7873454</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -1997,7 +1997,7 @@
 					<function name='orientation' domain='polyline'>
 						<sample>5.81362</sample>
 						<sample>5.860336</sample>
-						<sample>3.914849</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>

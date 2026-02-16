@@ -83,7 +83,7 @@
 						<sample>5.2272234</sample>
 						<sample>5.1145415</sample>
 						<sample>4.8727775</sample>
-						<sample>4.9779453</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -114,13 +114,13 @@
 						<sample>4.441153</sample>
 						<sample>4.6033964</sample>
 						<sample>4.5643296</sample>
-						<sample>4.402269</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
 				</annotations>
  </root>
-			<root ID='2c6a56d4-f7b6-4a20-951e-0aa2aca0a885' label='root_0' po:accession='PO:0009005'>
+			<root ID='2c6a56d4-f7b6-4a20-951e-0aa2aca0a885' label='root_05' po:accession='PO:0009005'>
 				<properties>
   <rulerAtOrigin>0.0</rulerAtOrigin>
 					<length>0.3273776</length>
@@ -157,7 +157,7 @@
 						<sample>4.863556</sample>
 						<sample>4.8999567</sample>
 						<sample>4.8247933</sample>
-						<sample>4.2735863</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -203,7 +203,7 @@
 						<sample>4.6170535</sample>
 						<sample>4.6170506</sample>
 						<sample>4.3724804</sample>
-						<sample>1.2308875</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
@@ -261,7 +261,7 @@
 						<sample>4.0426726</sample>
 						<sample>4.017684</sample>
 						<sample>4.00939</sample>
-						<sample>4.413127</sample>
+						<sample>0.0</sample>
 					</function>
 				</functions>
 				<annotations>
