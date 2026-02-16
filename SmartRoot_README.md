@@ -16,29 +16,24 @@ Smart root allows time-series annotation of root image data with a minimum of re
 
 SmartRoot allows you to annotate root structures using a point and click system. It smartly "snaps" new root nodes to the root structure making it easier to annotate roots. When annotating the current image at time step t, the annotations from t-1 can be loaded to reduce redundant annotation.
 
+### Loading Previous Annotations
 
-### Adding Registration Anchors
+You must have at least one time-step that has roots annotated to use this feature. If this is the first frame with a root annotation, skip these steps and go on to [Primary Root Annotation](#primary-root-annotation). 
 
-The first step is to add registration anchors to make it easier to annotate t+1 images. The time-series annotation is managed through using registration anchors. It is very important that the registration anchors are placed consistently throughout the annotation process!
+1. Launch the SR Explorer
+2. Open the next un-annotated frame in the series. For example: 28_07_05.png
+3. Right click anywhere on the frame and choose: `File > Import previous data fle`
+4. When asked about "Tracing Scale", choose the default: 1.0.
+5. Locate the previous RSML file and choose `Select Seed Datafile`. In this example: 28_07_04.rsml
+6. When asked `Is the tracing OK?`, zoom in and see if the majority of the root tracing aligns with the roots. If it does, choose `Yes`, if not choose `No` and see "Correcting Misplaced Tracing" steps below.
 
-1. Launch the SR Explorer 
-2. Browse to the [Y2c_Team_Repo/data/NPEC_Time_Series](./data/NPEC_Time_Series/) folder and locate an un-annotated time series. Note: un-annotated series do not have .rsxml files!
-   - ![Navigatino](./assets/smartroot/sr_navigation.png)
-3. Open the first image in the series to begin annotation
-5. Click on the petri dish image to activate it. Hover the mouse near the upper left corner of the dish.  Use the `=` key on the keyboard to zoom in. Fiji will zoom near where your mouse is located. Use the `-` key on the keyboard to zoom out.
-    - ![Upper Left Corner](./assets/smartroot/sr_petri_dish_ul_corner.png)
-6. Click on the `+` sign in the tool bar to activate the Registration Marker tool
-    - ![Registration marker tool](./assets/smartroot/sr_registration_marker_tool.png)
-7. Place a registration marker in the corner of the petri dish. Try to find a spot that you can consistently locate on all future images. The more accurate the registration mark is placed on future images, the less work you will need to do with future annotations.
-    - ![UL Mark](./assets/smartroot/sr_petri_dish_ul_corner_mark.png)
-8. Zoom out and hover the mouse over the upper right corner and zoom in again using `=`
-9. Repeat the marking
-    - ![UR Mark](./assets/smartroot/sr_petri_dish_ur_corner_mark.png)
+**Correcting Misplaced Tracing**
 
-If you mark in an incorrect location, you can delete all the marks by right clicking in the image window and choosing `Locals > Remove All Registration Anchors`. This will delete all anchors and you will need to mark again.
-
-![Remove Anchors](./assets/smartroot/sr_remove_anchors.png)
-
+1. Right click on the image and choose `Utilities > Move Tracing`
+    - ![Move Tracing](./assets/smartroot/sr_move_tracing.png)
+2. Use the arrows to shift and rotate the tracing. Adjust the number of pixels to shift by adjusting the lower left hand value.
+    - ![Interface](./assets/smartroot/sr_move_tracing_interface.png)
+3. Click OK when done
 
 ### Primary Root Annotation
 
@@ -85,29 +80,3 @@ After annotating the primary root, add any auxiliary roots.
     - ![Attach Parent Root: Choose](./assets/smartroot/sr_attach_parent_choose.png)
 6. Repeat steps 1-5 for all new laterals.
 7. Annotate any new growth using the same primary root methods.
-
-###  Annotating T+1 Images
-
-Annotating t+1 images starts with the same pattern as above: load an image and add anchors. To load the previously annotated roots follow these steps once the anchors have been added.
-
-1. Right click on the image to bring up the context menu and choose `File > Import Previous Data File`
-    - ![Import Previous Data File](./assets/smartroot/sr_import_previous_data_file.png
-2. Choose `Scaling: 1.0` (default) and click `OK`
-3. Locate the `RSML` file from the previous time step (e.g. `inv_28_02_01.rsml`)
-   - ![Select File](./assets/smartroot/sr_import_previous_data_file_select.png)
-4. Zoom Out or In once on the image to reveal the previous annotations
-   - If the tracing does not align well (e.g. appears displaced from the root), this is due to poor selection of the Registration Anchors. See the steps below for corrective actions.
-5. Hold down ALT (OPTION on Mac) and drag the root tip marker slightly further along the length of the root. Smart Root should automatically extend the root and add additional points. Repeat as needed to complete the root.
-6. Add points manually by right clicking and choosing "Append Node"
-   - Hold down CTRL to deactivate the snap feature. This is helpful if there is a lot of noise/water droplets near the intended annotation point.
-7. Repeat steps 5 and 6 for additional roots and auxiliary roots as needed.
-8. Close the image to save work in the `RSML` file
-9.  Repeat as needed for the rest of the series
-
-**Correcting Misplaced Tracing**
-
-1. Right click on the image and choose `Utilities > Move Tracing`
-    - ![Move Tracing](./assets/smartroot/sr_move_tracing.png)
-2. Use the arrows to shift and rotate the tracing. Adjust the number of pixels to shift by adjusting the lower left hand value.
-    - ![Interface](./assets/smartroot/sr_move_tracing_interface.png)
-3. Click OK when done
