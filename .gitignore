@@ -5,7 +5,13 @@ notebooks/**
 *.tif*
 *.jpg
 *.webp
-!assets/*/*.png
+
+# But keep PNGs in these folders anywhere
+!**//annotation_report**/
+!**/annotation_report/**/*.png
+
+!**/assets/**/
+!**/assets/**/*.png
 
 # compressed archives
 *.tgz
