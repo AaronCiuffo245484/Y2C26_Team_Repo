@@ -5,6 +5,9 @@ notebooks/**
 *.tif*
 *.jpg
 *.webp
+*.jxl
+
+data/NPEC_Time_Series/overlap
 
 # But keep PNGs in these folders anywhere
 !**//annotation_report**/
