@@ -12,7 +12,7 @@ Arguments:
     image_dir: Directory containing source PNG images (will search recursively)
     output_dir: Directory to save reports and visualizations
 
-Author: Aaron Couts
+Author: Aaron 
 Date: February 2026
 """
 

@@ -1,5 +1,54 @@
 # Annotation Quality Report
 
+## Introduction
+
+The following report documents an inter-annotator agreement analysis conducted as part of the
+exploratory data analysis (EDA) phase of this project. Its purpose is to establish a quantitative
+baseline for annotation quality before model training begins, and to identify any systematic sources
+of measurement error in the ground truth data.
+
+Annotations were produced by five annotators (AH, LP, ac, ar, ym) using the SmartRoot plugin for
+FIJI. Each annotator traced primary and lateral root structures from inverted plate images,
+following standardized documentation developed by the team. The resulting traces were exported as
+Root System Markup Language (RSML) files, from which root length measurements and binary
+segmentation masks were derived programmatically.
+
+A total of 970 annotations across 15 image files were collected. Agreement was assessed using four
+complementary metrics: intraclass correlation coefficient (ICC) for overall reliability, mean
+absolute length difference for measurement precision, Symmetric Mean Absolute Percentage Error
+(SMAPE) for scale-normalized comparison, and Dice coefficient and Intersection over Union (IoU)
+for spatial mask overlap.
+
+### Source Code
+
+Please note this EDA was created using `.py` scripts rather than a `.ipynb` to generate this report. All source for generating this notebook can be found in our [Team Repo](https://github.com/AaronCiuffo245484/Y2C26_Team_Repo/tree/feature/rsml_data/utilities)
+
+## Summary of Findings
+
+Inter-annotator agreement was high overall. ICC(2,1) under an absolute agreement model reached
+0.996 (95% CI: [0.995, 0.998]), which exceeds the threshold for excellent reliability as defined
+by Koo and Li (2016). Mean absolute length difference between annotator pairs was 0.597 mm
+(median 0.396 mm), and mean SMAPE was 6.285, which is below the Kaggle competition baseline of
+8.285 for this dataset.
+
+Spatial overlap was moderate, with a mean Dice coefficient of 0.810 and mean IoU of 0.689. While
+length measurements show strong agreement, the lower spatial overlap scores indicate that annotators
+reach consistent length estimates through paths that do not always spatially coincide. This is a
+known characteristic of polyline-based root tracing and represents an irreducible source of
+variance in any mask-derived metric.
+
+Validation identified two files with missing primary root labels, concentrated in a single image
+(inv_28_07_02.rsml). The five worst-performing cases by Dice coefficient all originate from this
+file, specifically root_03 and root_04, which are short roots (under 0.55 mm) where small
+positional differences produce disproportionately large spatial disagreement. This highlights that
+annotation variance is not uniformly distributed but is concentrated in structurally ambiguous,
+short-root cases.
+
+These results establish that the manual annotations are of sufficient quality to serve as ground
+truth for model training. The residual variance quantified here provides an indicative ceiling on
+the precision that automated methods can be expected to achieve: a model performing within the
+inter-annotator range is performing at human level for this task.
+
 ## Dataset Overview
 
 - **Total annotations**: 970
